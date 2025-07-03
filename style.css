@@ -217,16 +217,20 @@ body {
     margin-top: 30px;
 }
 
-.hope-tokens {
-    grid-template-columns: repeat(6, 1fr);
-    max-width: 520px;
-    margin: 0 auto;
-}
-
+.hope-tokens,
 .fear-tokens {
     grid-template-columns: repeat(6, 1fr);
     max-width: 520px;
     margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .hope-tokens,
+    .fear-tokens {
+        grid-template-columns: repeat(3, 1fr) !important;
+        max-width: 260px !important;
+    }
 }
 
 /* Token styling */
