@@ -1,3 +1,48 @@
+/* Extra mobile optimizations */
+@media (max-width: 400px) {
+    .container {
+        padding: 10px 2px;
+        border-radius: 8px;
+    }
+    .tracker-title {
+        font-size: 18px;
+    }
+    .token {
+        width: 38px;
+        height: 38px;
+        font-size: 15px;
+    }
+    .hope-tokens,
+    .fear-tokens {
+        max-width: 220px;
+        gap: 8px;
+    }
+    .toggle-switch {
+        width: 110px;
+        height: 28px;
+    }
+    .toggle-slider {
+        width: 45px;
+        height: 18px;
+        font-size: 9px;
+    }
+    .toggle-switch.gamemaster .toggle-slider {
+        left: 47px;
+    }
+    .settings-content {
+        padding: 15px;
+        max-width: 98vw;
+    }
+    .settings-button {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+    footer, .footer {
+        font-size: 11px !important;
+        padding: 0 2px;
+        word-break: break-word;
+    }
+}
 /* Reset and base styles */
 * {
     margin: 0;
